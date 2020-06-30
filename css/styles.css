@@ -688,7 +688,7 @@ strong{
 	left: -20px;
 	line-height: 30px;
 	margin: 10px;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 16px;
 	text-transform: none;
 
@@ -974,13 +974,14 @@ display: none;
 	}
 	.HLine {
 		left: 200px;
-		top: 1530px;
+		top: 1523px;
+
 		
 	}
 
 	.HlrLine{
 		left: 200px;
-		top: 2315px;
+		top: 2310px;
 	}
 
 	.mission{
@@ -1107,10 +1108,11 @@ display: none;
 	.testim img{
 		width: 100%;
 		height: 100%;
+		position: relative;
 	}
 
 	.testim h2{
-		top: 3280px;
+		top: 3260px;
 		left: 70px;
 	}
 
@@ -1125,6 +1127,7 @@ display: none;
 		height: 60px;
 		left: 145px;
 		top: 3430px;
+		position: absolute;
 	}
 
 	.myname {
@@ -1139,11 +1142,11 @@ display: none;
 
 	.single-dot{
 		left: 0;
-		top: -170px;
+		top: -175px;
 	}
 
 	.HoLine {
-		top: 3670px;
+		top: 3665px;
 		left: 200px;
 	}
 
@@ -1170,6 +1173,7 @@ display: none;
 	.wholepartner p{
 		left: -90px;
 		width: 150%;
+
 	}
 
 	.wholepartner span{
@@ -1188,7 +1192,7 @@ display: none;
 
 	.Line{
 		left: 220px;
-		top: 5097px;
+		top: 5095px;
 	}
 
 	.sponsor-img{
@@ -1203,7 +1207,7 @@ display: none;
 	
 	.footer-wrapper {
 		display: block;
-		margin-top: -80px;
+		margin-top: s0px;
 	}
 
 	.sub-wrapper{
@@ -1255,7 +1259,7 @@ display: none;
 
 	.copyright {
 		left: 65px;
-		top: 6450px;
+		top: 6540px;
 	}
 	nav{
 		background: none;
