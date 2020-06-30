@@ -796,7 +796,7 @@ strong{
 .footer{
 	
 	background-color: #202E31;
-	min-height: 100vh !important;
+	min-height: 100vh;
 	margin: 0;
 	/*padding-top: 10px;*/
 
@@ -1186,7 +1186,7 @@ display: none;
 
 	.sponsor p {
 		width: 100%;
-		margin: 20px;
+		margin: 10px;
 
 	}
 
@@ -1201,12 +1201,12 @@ display: none;
     padding: 5px;
     line-height: 95px;
     margin-top: -60px;
-    margin-left: 70px;
+    margin-left: 50px;
 	}
 	
 	.footer-wrapper {
 		display: block;
-		margin-top: -60px;
+		margin-top: -100px;
 	}
 
 	.sub-wrapper{
@@ -1241,6 +1241,7 @@ display: none;
 
 	.proj-images img{
 		top: 80px;
+
 	}
 
 	input[type="text"]{
@@ -1251,15 +1252,16 @@ display: none;
 	}
 
 	button {
-		left: 120px;
+		left: 140px;
 		top: 570px;
-		padding: 3px 8px;
+		padding: 3px 5px;
+		font-size: 12px;
 	}
 
 	.copyright {
 		position: relative;
 		left: 5px;
-		top: 100px;
+		top: 90px;
 		font-size: 14px;
 	}
 	nav{
