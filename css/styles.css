@@ -675,7 +675,7 @@ strong{
 	width: 70%;
 	margin: 5px;
 	text-overflow: clip;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 20px;
 	
 }
@@ -688,7 +688,7 @@ strong{
 	left: -20px;
 	line-height: 30px;
 	margin: 10px;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 16px;
 	text-transform: none;
 
@@ -972,7 +972,7 @@ display: none;
 		font-size: 10px;
 		padding: 0px 4px;
 	}
-	.HLine {
+	/*.HLine {
 		left: 200px;
 		top: 1523px;
 
@@ -982,7 +982,7 @@ display: none;
 	.HlrLine{
 		left: 200px;
 		top: 2310px;
-	}
+	}*/
 
 	.mission{
 		top: 195px;
@@ -1112,12 +1112,14 @@ display: none;
 	}
 
 	.testim h2{
-		top: 3260px;
-		left: 70px;
+		top: -370px;
+		left: 0px;
+		position: relative;
 	}
 
 	.testim p{
 		left: 15px;
+		top: -350px;
 		width: 90%;
 		font-size: 14px;
 	}
@@ -1126,29 +1128,34 @@ display: none;
 		width: 60px;
 		height: 60px;
 		left: 145px;
-		top: 3430px;
-		position: absolute;
+		top: -350px;
+		position: relative;
+
 	}
 
 	.myname {
-		margin-left: 5px;
-		top: 3500px;
+		margin-left: 7px;
+		position: relative;
+		top: 1090px;
+		
+		/*color: blue;*/
 	}
 
 	.role {
-		top: 3520px;
+		position: relative;
+		top: 1250px;
 		margin-left: 7px;
 	}
 
 	.single-dot{
 		left: 0;
-		top: -175px;
+		top: -325px;
 	}
 
-	.HoLine {
+	/*.HoLine {
 		top: 3665px;
 		left: 200px;
-	}
+	}*/
 
 	.HorLine, .Line1 {
 		display: none;
@@ -1190,10 +1197,10 @@ display: none;
 
 	}
 
-	.Line{
+	/*.Line{
 		left: 220px;
 		top: 5095px;
-	}
+	}*/
 
 	.sponsor-img{
     display: inline-block;
