@@ -796,7 +796,7 @@ strong{
 .footer{
 	
 	background-color: #202E31;
-	min-height: 100vh;
+	min-height: 103vh;
 	margin: 0;
 	/*padding-top: 10px;*/
 
@@ -1241,6 +1241,7 @@ display: none;
 
 	.proj-images img{
 		top: 80px;
+
 
 	}
 
