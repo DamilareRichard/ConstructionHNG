@@ -736,7 +736,7 @@ strong{
 }
 
 .sponsor{
-	/*background-color: #ccc;*/
+	background-color: #ccc;
 	min-height: 70vh;
 }
 .sponsor p {
@@ -808,7 +808,7 @@ strong{
 	flex-direction: row;
 	color: #FCC139;
 	position: relative;
-	margin-top: 10px;
+	margin-top: -25px;
 
 
 }
@@ -828,7 +828,7 @@ strong{
 
 .proj{
 	position: relative;
-	margin-top: 40px;
+	margin-top: 22px;
 
 	left: 50px;
 	font-size: 18px;
@@ -890,21 +890,16 @@ button{
 	text-align: center;
 }
 
-/*#menu-bar, #menu{
-	display: none;*/
 
 
-/*.menu-bg, .change-bg{
-display: none;
-}*/
-
-
-@media screen and (max-width: 400px) {
+@media (max-width: 768px) {
 
 	body{
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
+		width: 100%;
+		min-height: 100vh;
 		overflow-x: hidden !important;
 		overflow-y: scroll !important;
 	
@@ -916,6 +911,7 @@ display: none;
 		top: 0;
 		right: 0;
 		position: fixed;
+
 	}
 
 	#menu-bar{
@@ -931,7 +927,7 @@ display: none;
 	}
 
 	.change-bg {
-		width: 500px;
+		width: 400px;
 		height: 50%;
 		z-index: -1;
 	}
@@ -951,8 +947,8 @@ display: none;
 		
 	}
 	.img-wrapper div{
-		font-size: 16px;
-		top: 70px;
+		font-size: 18px;
+		top: 120px;
 		left: 20px;
 	}
 
@@ -962,15 +958,15 @@ display: none;
 
 	.img-wrapper p{
 		left: 20px;
-		top: 120px;
+		top: 180px;
 		width: 60%;
-		font-size: 12px; 
+		font-size: 14px; 
 	}
 
 	.img-wrapper span{
 		left: 20px;
-		top: 175px;
-		font-size: 10px;
+		top: 245px;
+		font-size: 12px;
 		padding: 0px 4px;
 	}
 	 
@@ -979,10 +975,10 @@ display: none;
 	}
 
 	.mission{
-		top: 195px;
+		top: 295px;
 		left: 0;
 		width: 100%;
-		height: 5%;
+		height: 55px;
 		padding: 5px;
 		font-size: 11px;
 		z-index: -1;
@@ -1026,39 +1022,50 @@ display: none;
 	}
 
 	.carousel p{
-		top: 220px;
+		top: 140px;
 		font-size: 16px;
 	}
 
 	.slider img{
-		top: 205px;
-		width: 100px;
-		height: 50px;
+		top: 140px;
+		width: 130px;
+		height: 70px;
 	}
 
 	.prev-btn{
-		left: 20px;
-		top: 32px;
+		left: 130px;
+		top: 60px;
 	}
 
 	.next-btn{
-		left: 315px;
-		top: 32px;
+		left: 515px;
+		top: 60px;
 	}
 
 	.blog p{
 		margin: 20px;
+		padding-left: 20px;
 		line-height: 60px;
+		position: relative;
+		font-weight: normal;
+	}
+
+	.bpost{
+
+		top: 50px;
+		
+		z-index: 1111;
 	}
 
 	.blog-post { 
 	   display: block;
 
 
+
 	 }
 
 	 .imgblog img {
-		margin-top: 15px;
+		margin-top: 75px;
 		margin-left: -50px;
 	 }
 
@@ -1069,6 +1076,7 @@ display: none;
 	 .cons p{
 	 	padding: 5px;
 	 	line-height: 30px;
+	 	
 	 }
 
 	 .blog-img {
@@ -1080,8 +1088,11 @@ display: none;
 	 }
 
 	.service p{
-		margin-top: -65px;
+		margin-top: -25px;
+		
 		line-height: 0;
+		position: relative;
+		z-index: 1111;
 		
 	}
 
@@ -1112,7 +1123,7 @@ display: none;
 	}
 
 	.testim p{
-		left: 15px;
+		left: 45px;
 		top: -350px;
 		width: 90%;
 		font-size: 14px;
@@ -1121,14 +1132,14 @@ display: none;
 	.ceo img{
 		width: 60px;
 		height: 60px;
-		left: 145px;
+		left: 300px;
 		top: -350px;
 		position: relative;
 
 	}
 
 	.myname {
-		margin-left: 7px;
+		margin-left: -10px;
 		position: relative;
 		top: 1090px;
 		
@@ -1138,7 +1149,7 @@ display: none;
 	.role {
 		position: relative;
 		top: 1250px;
-		margin-left: 7px;
+		margin-left: -10px;
 	}
 
 	.single-dot{
@@ -1172,7 +1183,7 @@ display: none;
 
 	.wholepartner p{
 		left: -90px;
-		width: 150%;
+		width: 100%;
 
 	}
 
@@ -1200,17 +1211,17 @@ display: none;
     height: 50%;
     padding: 5px;
     line-height: 95px;
-    margin-top: -60px;
-    margin-left: 50px;
+    margin-top: -95px;
+    margin-left: 210px;
 	}
 	
 	.footer-wrapper {
 		display: block;
-		margin-top: -100px;
+		margin-top: -360px;
 	}
 
 	.sub-wrapper{
-		padding: 0 53px;
+		padding: 0 175px;
 		margin: 60px;
 	}
 	.sub-wrapper h3 {
@@ -1241,20 +1252,21 @@ display: none;
 
 	.proj-images img{
 		top: 80px;
+		padding: 3px;
 
 
 	}
 
 	input[type="text"]{
-		left: 80px;
-		top: 520px;
+		left: 220px;
+		top: 540px;
 		padding: 3px 9px;
 		
 	}
 
 	button {
-		left: 140px;
-		top: 570px;
+		left: 280px;
+		top: 590px;
 		padding: 3px 5px;
 		font-size: 12px;
 	}
@@ -1268,21 +1280,24 @@ display: none;
 	nav{
 		background: none;
 		height: 70px;
+		margin: 0;
+
 	}
 
 	#menu {
 	width: 40px;
 	height: 0px;
 	margin-left: auto;
-	margin-right: 10px;
+	margin-right: 15px;
 	position: relative;
 	top: 25px;
 	cursor: pointer;
+
 }
 
 .name{
 	
-	margin-left: 0;
+	margin-left: -80px;
 	position: relative;
 }
 
@@ -1351,3 +1366,136 @@ display: none;
 }
 
 }
+
+@media (max-width: 400px) {
+
+	.name {
+		margin-left: -7px;
+		font-size: 24px;
+	}
+
+	.left-hand strong {
+		font-size: 25px;
+	}
+
+	.img-wrapper div{
+			top: 72px;
+			font-size: 16px;
+
+	}
+
+	.img-wrapper p{
+		top: 125px;
+		font-size: 11px;
+	}
+
+	.img-wrapper span{
+		top: 180px;
+		font-size: 10px; 
+	}
+
+	.mission {
+		top: 200px;
+		padding: 8px;
+		font-size: 9.5px;
+	}
+
+	.wholeWrapper p {
+		width: 120%;
+	}
+
+	.horizontalLine, .horizLine, 
+	.horizonLine, .HrLine, 
+	.HlLine, .HlrLine, .HLine, 
+	.HorLine, .Line1, .HoLine {
+		display: none;
+	}
+
+	.carousel p{
+		top: 214px;
+		font-size: 14px;
+	}
+
+	.slider img{
+		top: 200px;
+		width: 100px;
+		height: 50px;
+	}
+
+	.prev-btn{
+		left: 21px;
+		top: 25px;
+	}
+
+	.next-btn{
+		left: 325px;
+		top: 25px;
+	}
+
+	.testim p{
+		left: 20px;
+	}
+	.ceo img {
+		left: 140px;
+	}
+
+	.single-dot {
+		left: -15px;
+	}
+
+	.wholepartner p{
+		width: 130%;
+	}
+
+	.sponsor-img img {
+		top: -25px;
+		left: -155px;
+	}
+
+	.sub-wrapper{
+		padding: 0 40px;
+		margin: 60px;
+	}
+	.sub-wrapper h3 {
+		top: 30px;
+		left: 20px;
+		width: 100%;
+		font-size: 16px;
+	}
+
+	input[type="text"] {
+
+		left: 70px;
+	}
+
+	button {
+		left: 130px;
+	}
+
+	.copyright {
+		left: -10px;
+		top: 120px;
+	}
+
+     .footer-wrapper {
+		display: block;
+		margin-top: -370px;
+	}
+	.pre-btn, .pos-btn, 
+	.previous-btn, .nex-btn,
+	.prevbtn, .nextbtn{
+		display: none;
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+	 
